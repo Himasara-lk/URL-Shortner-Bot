@@ -24,7 +24,7 @@ I'm link shortner Bot
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🍃 Join My Updates 🍃', url='https://telegram.me/trtechguide')
+        InlineKeyboardButton('🍃 Join My Updates 🍃', url='https://telegram.me/AltexUpdates')
         ]]
     )
 
