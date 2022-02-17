@@ -14,7 +14,7 @@ Made by @trtechguide
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/trtechguide')
+        InlineKeyboardButton('🍃 Join My Updates 🍃', url='https://telegram.me/trtechguide')
         ]]
     )
 
