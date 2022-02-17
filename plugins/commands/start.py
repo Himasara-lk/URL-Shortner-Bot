@@ -4,13 +4,23 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 START_TEXT = """
-Hello {} 😌
-I am a link shortner telegram bot.
+Hello {} 🌿
+I'm link shortner Bot 
 
->> `I can short any type of link`
+🌼 Url Types 
 
-Made by @trtechguide
+• http://Clck.ru
+• https://da.gd/lgNjp
+• http://Is.gd
+• http://Osdb.link
+• http://GPLinks.in
+
 """
+
+
+
+
+
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
