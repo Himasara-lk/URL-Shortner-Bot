@@ -24,7 +24,7 @@ BUTTONS = InlineKeyboardMarkup(
 @Client.on_message(filters.private & filters.regex(r'https?://[^\s]+'))
 async def reply_shortens(bot, update):
     message = await update.reply_text(
-        text="`🔗 Analysing your link\n\nPlease Wait...`",
+        text="`🔗 Analysing your link\n\n🚀 Please Wait...`",
         disable_web_page_preview=True,
         quote=True
     )
