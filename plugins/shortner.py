@@ -57,7 +57,7 @@ async def inline_short(bot, update):
     )
 
 async def short(link):
-    shorten_urls = "**--Shorted URLs--**\n"
+    shorten_urls = "**🔗 Shorted URLS**\n"
     
     # Bit.ly shorten
     if BITLY_API:
@@ -180,7 +180,7 @@ async def short(link):
     
     # Send the text
     try:
-        shorten_urls += "\n\nMade by @trtechguide"
+        shorten_urls += "\n\n🍃 Available here. You can use any short link you like"
         return shorten_urls
     except Exception as error:
         return error
