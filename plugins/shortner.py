@@ -17,14 +17,14 @@ GPLINKS_API = os.environ.get("GPLINKS_API", "")
 
 BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text='⚙ Join Updates Channel ⚙', url='https://telegram.me/trtechguide')
+        InlineKeyboardButton(text='🌿 Join My Updates 🍃', url='https://telegram.me/AltexUpdates')
         ]]
     )
 
 @Client.on_message(filters.private & filters.regex(r'https?://[^\s]+'))
 async def reply_shortens(bot, update):
     message = await update.reply_text(
-        text="`Analysing your link...`",
+        text="`🔗 Analysing your link\n\nPlease Wait...`",
         disable_web_page_preview=True,
         quote=True
     )
@@ -57,7 +57,7 @@ async def inline_short(bot, update):
     )
 
 async def short(link):
-    shorten_urls = "**🔗 Shorted URLS**\n"
+    shorten_urls = "**🔗 Shorted Urls **\n"
     
     # Bit.ly shorten
     if BITLY_API:
